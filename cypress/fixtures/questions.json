@@ -1,0 +1,107 @@
+[
+    {
+        "question": "What is the result of 10 // 3 in Python?",
+        "answers": [
+            {
+                "text": "3.33",
+                "isCorrect": false
+            },
+            {
+                "text": "3",
+                "isCorrect": true
+            },
+            {
+                "text": "4",
+                "isCorrect": false
+            },
+            {
+                "text": "3.0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Which method is used to add an item to a list in Python?",
+        "answers": [
+            {
+                "text": "append()",
+                "isCorrect": true
+            },
+            {
+                "text": "add()",
+                "isCorrect": false
+            },
+            {
+                "text": "insert()",
+                "isCorrect": false
+            },
+            {
+                "text": "extend()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "What is the correct file extension for Python files?",
+        "answers": [
+            {
+                "text": ".py",
+                "isCorrect": true
+            },
+            {
+                "text": ".python",
+                "isCorrect": false
+            },
+            {
+                "text": ".pt",
+                "isCorrect": false
+            },
+            {
+                "text": ".pyt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "What does the len() function do in Python?",
+        "answers": [
+            {
+                "text": "Returns the length of an object",
+                "isCorrect": true
+            },
+            {
+                "text": "Adds a new element",
+                "isCorrect": false
+            },
+            {
+                "text": "Deletes an element",
+                "isCorrect": false
+            },
+            {
+                "text": "Counts the number of occurrences",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is not a Python data structure?",
+        "answers": [
+            {
+                "text": "Dictionary",
+                "isCorrect": false
+            },
+            {
+                "text": "Set",
+                "isCorrect": false
+            },
+            {
+                "text": "Array",
+                "isCorrect": true
+            },
+            {
+                "text": "Tuple",
+                "isCorrect": false
+            }
+        ]
+    }
+]
