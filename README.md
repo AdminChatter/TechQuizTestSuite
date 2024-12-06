@@ -1,7 +1,7 @@
-# Book Search Engine
+# Tech Quiz Test Suite
 
 ## Description
-The Book Search Engine is a web application that allows avid readers to search for books, save their favorites, and manage their reading list. This project leverages modern technologies such as the MERN stack (MongoDB, Express.js, React, and Node.js) and Apollo Server for GraphQL API integration. The goal of this project was to transition from a RESTful API architecture to GraphQL to enhance performance and scalability, making it a valuable learning experience in modern web development practices.
+The Tech Quiz Test Suite is a project designed to emphasize the critical role of testing in modern web application development. By incorporating Cypress for both component and end-to-end testing, this project ensures that the Tech Quiz application is reliable, robust, and user-friendly. The application allows users to take a quiz consisting of ten random questions and view their scores. This project provides a hands-on experience in implementing comprehensive testing strategies to meet dynamic user demands.
 
 ## Table of Contents
 
@@ -19,34 +19,29 @@ Follow these steps to set up the Kanban Board locally:
 
 1. Clone the repository:
 ```bash
-git clone git@github.com:AdminChatter/BookSearchEngine.git
+git clone git@github.com:AdminChatter/TechQuizTestSuite.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd book-search-engine
+cd tech-quiz-test-suite
 npm install
 ```
 
 3. Set up the environment variables:
-    Create a .env file in the root directory.
-    Add the following variables:
-    env
-    Copy code
-    MONGODB_URI=<your-mongodb-connection-string>
-    SECRET=<your-secret-key>
+Rename .env.example to .env and configure the necessary variables.
 
 4. Run the application:
 ```bash
-npm run develop
+npm run dev
 ```
 
 ## Usage
 Steps to Use:
-    Open the application in your browser (default: http://localhost:3000).
-    Use the search bar to find books by title, author, or keywords.
-    Log in or sign up to save your favorite books.
-    Manage your saved books list, including viewing or removing saved books.
+    1. Launch the application locally (http://localhost:3000 by default).
+    2. Click the "Start Quiz" button to begin the quiz.
+    3. Answer each question and navigate through the quiz.
+    4. At the end of the quiz, view your score and restart for another attempt.
 
 ## License
 
@@ -60,10 +55,9 @@ Click the license above to learn more about this license.
 ![Javascript](https://img.shields.io/badge/Javascript-blue.svg)
 
 ## Features
-- GraphQL API: Enhanced data querying and mutation capabilities.
-- User Authentication: Signup and login features with secure token-based authentication.
-- Search and Save: Connects to the Google Books API to fetch and store book information.
-- Responsive Interface: Built with React to ensure an intuitive user experience.
+- Dynamic Quiz Functionality: Provides a seamless experience for taking quizzes and viewing scores.
+- Cypress Integration: Comprehensive testing for components and user workflows.
+- MERN Stack: Utilizes MongoDB, Express.js, React, and Node.js for a robust application structure.
 
 ## How to Contribute
 Contributions are welcome! To contribute:
